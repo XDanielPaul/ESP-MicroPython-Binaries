@@ -1,0 +1,33 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://xdanielpaul.github.io/ESP-MicroPython-Binaries/"
+supported_apps = ["Micropython-ESP32", "Micropython-ESP32C3", "Micropython-ESP32S2", "Micropython-ESP32S3", "Micropython-ESP8266"]
+
+[Micropython-ESP32]
+image.esp32 = "Micropython-ESP32.bin"
+android_app_url = ""
+ios_app_url = ""
+chipsets = ["esp32"]
+
+[Micropython-ESP32C3]
+image.esp32s2 = "Micropython-ESP32C3.bin"
+android_app_url = ""
+ios_app_url = ""
+chipsets = ["esp32c3"]
+
+[Micropython-ESP32S2]
+image.esp32s3 = "Micropython-ESP32S2.bin"
+android_app_url = ""
+ios_app_url = ""
+chipsets = ["esp32s2"]
+
+[Micropython-ESP32S3]
+image.esp32 = "Micropython-ESP32S3"
+android_app_url = ""
+ios_app_url = ""
+chipsets = ["esp32s3"]
+
+[Micropython-ESP8266]
+image.esp32c3 = "Micropython-ESP8266.bin"
+android_app_url = ""
+ios_app_url = ""
+chipsets = ["esp32"]
